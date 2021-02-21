@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ans1"
+        android:gravity="center"
+        android:text="Question"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:id="@+id/ans1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ans2"
+        android:text="Answer1"
+        />
+
+    <Button
+        android:id="@+id/ans2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ans3"
+        android:text="Answer2" />
+    <Button
+        android:id="@+id/ans3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ans4"
+        android:text="Answer3" />
+
+    <Button
+        android:id="@+id/ans4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Answer4" />
+
+
+
+
+
+</RelativeLayout>
